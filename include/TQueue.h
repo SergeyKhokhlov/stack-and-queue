@@ -21,8 +21,6 @@ class TQueue {
     bool isFull();
     bool isEmpty();
 };
-#endif
-
 
 template <class T>
 TQueue<T>::TQueue(int _size) {
