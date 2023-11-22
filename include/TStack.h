@@ -1,5 +1,4 @@
-#ifndef __STACK_H__
-#define __STACK_H__
+#pragma once
 
 template <class T>
 class TStack
