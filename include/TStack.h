@@ -1,8 +1,7 @@
 #pragma once
 
 template <class T>
-class TStack
-{
+class TStack {
 private:
   int  size;
   int count;
@@ -12,18 +11,13 @@ public:
   TStack(int _size = 1);
   TStack(const TStack<T> &p);
   ~TStack();
-  
   void push(T &temp);
   T pull();
-  
   int getCount();
   int getSize();
-  
   bool isFull();
   bool isEmpty();
 };
-
-#endif
 
 
 template <class T>
